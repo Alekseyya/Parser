@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutopiterParser.Exel", "AutopiterParser.Exel\AutopiterParser.Exel.csproj", "{0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutopiterParser.Selenium", "AutopiterParser.Selenium\AutopiterParser.Selenium.csproj", "{DFF65169-EF3B-4269-B737-7CB445ACE7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutopiterParser.Tests", "AutopiterParser.Tests\AutopiterParser.Tests.csproj", "{34BE9C30-BD86-4971-BAF3-2971BFA880F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{842E7935-78FD-4B4B-9082-8A4FEF247FF7} = {842E7935-78FD-4B4B-9082-8A4FEF247FF7}
+		{0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25} = {0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25}
+		{DFF65169-EF3B-4269-B737-7CB445ACE7A7} = {DFF65169-EF3B-4269-B737-7CB445ACE7A7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutopiterParser.UI", "AutopiterParser.UI\AutopiterParser.UI.csproj", "{842E7935-78FD-4B4B-9082-8A4FEF247FF7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25} = {0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25}
+		{DFF65169-EF3B-4269-B737-7CB445ACE7A7} = {DFF65169-EF3B-4269-B737-7CB445ACE7A7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAB8D4B-5CA5-4B4D-B521-E918AB89AA25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF65169-EF3B-4269-B737-7CB445ACE7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF65169-EF3B-4269-B737-7CB445ACE7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF65169-EF3B-4269-B737-7CB445ACE7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF65169-EF3B-4269-B737-7CB445ACE7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BE9C30-BD86-4971-BAF3-2971BFA880F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BE9C30-BD86-4971-BAF3-2971BFA880F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BE9C30-BD86-4971-BAF3-2971BFA880F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BE9C30-BD86-4971-BAF3-2971BFA880F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842E7935-78FD-4B4B-9082-8A4FEF247FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842E7935-78FD-4B4B-9082-8A4FEF247FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842E7935-78FD-4B4B-9082-8A4FEF247FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842E7935-78FD-4B4B-9082-8A4FEF247FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45AAF271-AF77-4433-8FEB-BA821ADA5428}
+	EndGlobalSection
+EndGlobal
