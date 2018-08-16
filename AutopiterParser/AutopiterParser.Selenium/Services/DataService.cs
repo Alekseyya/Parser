@@ -14,8 +14,8 @@ namespace AutopiterParser.Selenium.Services
     public class DataService : IDataService
     {
         private readonly IWebDriver _browser;
-        private const string _login = "info@yapart.ru";
-        private const string _pass = "Bel Med5";
+        private const string _login = 
+        private const string _pass =
 
         public DataService()
         {
